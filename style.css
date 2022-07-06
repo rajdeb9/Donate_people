@@ -30,7 +30,7 @@
     word-spacing: 3px;
 }
 .text-content p {
-    font-size: 19px;
+    font-size: 25px;
     color: whitesmoke;
     padding-top: 18px;
     font-weight: 400px;
@@ -89,9 +89,10 @@
     width: 70%;
     outline: none;
     padding-bottom: 8px;
+    text-align: center;
 }
-::placeholder {
-	text-align: center !important ;
+ ::placeholder {
+	text-align: center;
 	font-size: 16px;
 	line-height: 41px;
 	font-weight: 400;
@@ -275,15 +276,20 @@
 	background-color: #ced6e0;
 	padding: 9px 9px;
     border-radius: 2px;
+    margin-left: 20px;
 }
 ::placeholder{
-    text-align: left;
+    text-align: center!important;
     color:#2f3542;
+}
+.btn-area {
+    margin-right: 27px;
+    display: inline-block;
 }
 .updates-area button {
 	display: inline-block;
 	margin-top: 30px;
-	padding: 9px 25px;
+	padding: 9px 30px;
 	border-radius: 5px;
 	background-color: #e55039;
 	border: none;
@@ -292,7 +298,6 @@
 	color: aliceblue;
 	cursor: pointer;
 	text-transform: capitalize;
-	margin-right: 8px;
 }
 /* footer section start */
 .footer-area {
