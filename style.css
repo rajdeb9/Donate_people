@@ -1,0 +1,313 @@
+/* fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&family=Nanum+Gothic:wght@400;700;800&family=Poppins:wght@400;500;600;700;800&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* first section start */
+.bg-area {
+    background-image: linear-gradient(rgba(0, 0, 0,0.4),rgba(0, 0, 0,0.4)),url("images/donate.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.container {
+    width: 88%;
+    margin: 0 auto;
+}
+.text-content{
+    text-align: center;
+    padding-top: 260px;
+}
+.text-content h1 {
+    font-size: 65px;
+    font-weight: 700;
+    color: whitesmoke;
+    word-spacing: 3px;
+}
+.text-content p {
+    font-size: 19px;
+    color: whitesmoke;
+    padding-top: 18px;
+    font-weight: 400px;
+    word-spacing: 2px;
+}
+.btn{
+    display: inline-block;
+    margin-top: 30px;
+    padding: 14px 25px;
+    border-radius: 5px;
+    background-color: #e55039;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: aliceblue;
+    cursor: pointer;
+}
+/* second section start */
+.donate-content {
+    margin-top: 120px;
+    text-align: center;
+}
+.donate-content h1 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #121212;
+}
+.donate-content p {
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 28px;
+    word-spacing: 3px;
+    margin-top: 3px;
+    color: #707070;
+}
+.amount-box-content {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.donate-box {
+    background-color: whitesmoke;
+    padding: 36px 30px;
+    margin-left: 60px;
+    border-radius: 3px;
+    color: #707070;
+}
+.second-box {
+    border: 2px solid #FF5959;
+    background-color: #FFEEEE;
+}
+#amount {
+    margin-top: 40px;
+    border: none;
+    border-bottom: 1px solid #DADADA;
+    width: 70%;
+    outline: none;
+    padding-bottom: 8px;
+}
+::placeholder {
+	text-align: center;
+	font-size: 16px;
+	line-height: 41px;
+	font-weight: 400;
+	color: #362323;
+}
+
+/* ==third section start== */
+.donate-plan-content {
+    margin-top: 110px;
+}
+.donate-plan-content h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    color: #121212;
+}
+.donate-plan-content p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 13px;
+    color:#707070;
+    word-spacing: 3px;
+}
+.donate-card-wraper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.card-body {
+    width: 30%;
+}
+.card-body .icon-area {
+	padding: 51px 0 0 32px;
+}
+.card-body .text-area h2{
+    padding: 24px 0 0 32px;
+    color: #2C3A47;
+}
+.card-body .text-area p {
+	font-size: 16px;
+	text-align: left;
+	padding: 13px 0 55px 29px;
+	word-spacing: 8px;
+	font-weight: 500;
+    color: #4b4b4b;
+}
+.card-one {
+    background-color: #4F9DA61A;
+}
+.card-two {
+    background-color: #FF59591A;
+
+}
+.card-three {
+    background-color: #F8EFBA;
+}
+/* section four start */
+.lives-depend-content {
+    margin-top: 120px;
+}
+.main-wraper {
+    display: flex;
+    padding-left: 24px;
+}
+.lives-text {
+    width: 45%;
+    margin-top: 26px;
+}
+.lives-text h1 {
+    font-size: 35px;
+    word-spacing: 4px;
+    font-weight: 800;
+    padding-bottom: 20px;
+    line-height: 53px;
+    color: #353b48
+}
+.lives-text .first {
+    font-size: 15px;
+    word-spacing: 4px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    color:#3d3d3d;
+}
+.lives-text .second {
+    font-size: 15px;
+    word-spacing: 6px;
+    font-weight: 500;
+    padding-bottom: 25px;
+    color: #3d3d3d;
+}
+.lives-depend-content button {
+	display: inline-block;
+	margin-top: 30px;
+	padding: 15px 15px;
+	border-radius: 5px;
+	background-color: #e55039;
+	border: none;
+	font-size: 16px;
+	font-weight: 500;
+	color: aliceblue;
+	cursor: pointer;
+	text-transform: capitalize
+}
+.image-lives-content {
+    width: 45%;
+}
+.image-lives-content img {
+	width: 100%;
+	height: 382px;
+	border-radius: 4px;
+	display: inline-block;
+}
+/* section five start  */
+.team-area {
+    margin-top: 120px;
+}
+.team-area h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    color: #2C3A47;
+    word-spacing: 4px;
+}
+.team-wraper{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.team-head{
+    margin-left: 100px;
+}
+.team-wraper img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    outline: 3px solid #57606f;
+    outline-offset: 4px;
+}
+.team-wraper h3{
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #3c6382;
+    padding-top: 20px;
+}
+.team-wraper p {
+    text-align: center;
+    font-size: 15px;
+    font-style: 400;
+    color:#57606f;
+    word-spacing: 4px;
+}
+/* section six start */
+.updates-area {
+    margin-top: 110px;
+    text-align: center;
+}
+.updates-area h1{
+    font-size: 35px;
+    color:  #121212;
+    margin-bottom: 10px;
+}
+.updates-area p{
+    font-size: 16px;
+    color: #57606f;
+    font-weight: 400;
+    word-spacing: 3px;
+}
+.update-body {
+    background-color: #FFF4D6;
+    padding: 40px 30px 70px 30px;
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 3px;
+}
+#mail {
+	border: none;
+	outline: none;
+	background-color: #ced6e0;
+	padding: 9px 9px;
+    border-radius: 2px;
+}
+::placeholder{
+    text-align: left;
+    color:#2f3542;
+}
+.updates-area button {
+	display: inline-block;
+	margin-top: 30px;
+	padding: 9px 25px;
+	border-radius: 5px;
+	background-color: #e55039;
+	border: none;
+	font-size: 15px;
+	font-weight: 500;
+	color: aliceblue;
+	cursor: pointer;
+	text-transform: capitalize;
+	margin-right: 8px;
+}
+/* footer section start */
+.footer-area {
+    margin-top: 130px;
+    background-color: #2f3542;
+    text-align: center;
+}
+.footer-area h1 {
+    font-size: 30px;
+    color: #e55039;
+    font-weight: 600;
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+.footer-area p {
+    color: whitesmoke;
+    padding-bottom: 32px;
+}
