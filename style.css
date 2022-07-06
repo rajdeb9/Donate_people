@@ -278,8 +278,8 @@
     border-radius: 2px;
     margin-left: 20px;
 }
-::placeholder{
-    text-align: center!important;
+ input[type="email"]::placeholder{
+    text-align: left;
     color:#2f3542;
 }
 .btn-area {
